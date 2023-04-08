@@ -2,7 +2,7 @@ import fs from "fs";
 import matter from "gray-matter";
 import { GetStaticPaths, GetStaticProps } from "next";
 import md from "markdown-it";
-import { FrontMatterType } from "../_types";
+import { FrontMatterType } from "@/types/page";
 import { ParsedUrlQuery } from "querystring";
 
 interface getStaticPropsParamsType extends ParsedUrlQuery {

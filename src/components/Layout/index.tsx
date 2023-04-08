@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { LayoutProps } from "../_type";
+import { LayoutProps } from "@/types/component";
 
 const Layout = ({ children }: LayoutProps): JSX.Element => {
   return (
