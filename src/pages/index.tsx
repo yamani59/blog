@@ -3,7 +3,7 @@ import { GetStaticProps, InferGetStaticPropsType } from "next";
 import fs from "fs";
 import matter from "gray-matter";
 import Link from "next/link";
-import { HomeProps, FrontMatterType } from "./@types";
+import { HomeProps, FrontMatterType } from "./_types";
 
 export const getStaticProps: GetStaticProps<{ posts: HomeProps[] }> = () => {
   const files = fs.readdirSync("posts");
