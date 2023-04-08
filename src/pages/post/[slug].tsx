@@ -42,3 +42,12 @@ export const getStaticProps: GetStaticProps<
   };
 };
 
+const Post = ({ data, content }: getStaticPropsType) => {
+  return (
+    <>
+      {data.title}
+    </>
+  )
+};
+
+export default Post;
